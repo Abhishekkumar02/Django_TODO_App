@@ -30,6 +30,8 @@ open terminal in linux or command prompt in windows
   
 * To run the project goto the project dir (Django_TODO_App) and run the following command
     ```bash
+     python3 manage.py makemigrations
+     python3 manage.py migrate
      python3 manage.py runserver
     ```
    Once the server is start and running, visit [http://localhost:8000](http://localhost:8000)
